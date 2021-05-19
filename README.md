@@ -10,6 +10,9 @@ The data provided by Santander for this project are de-identifying real data in 
 Financial institutions want to predict whether their customers would make a specific transaction in the future, and we are helping them to identify those customers with a large amount of data representing their behaviours. The tradeoff is between the cost of promoting our product to customers and the profit of customers making transactions. We conducted cost analysis using our best performing model LightGBM and we found that we could achieve a 62.19 average profit compared with -59.51 if we randomly choose target customers. 
 The threshold of minimizing the cost is 7.6%, meaning that we are targeting the customers whose probabilities of making transactions are more than 7.6% based on our predicted results. The corresponding average misclassification cost is 7.56.
 
+![image](https://user-images.githubusercontent.com/71951215/118754932-8fc4a380-b82d-11eb-8b8e-7ba388ea85d1.png)
+
+
 
 ## Solution Overview
 Our final solution contains two major strategies, feature engineering and predictive model building. 
